@@ -103,8 +103,22 @@ export const USER_CONFIG = {
       horoscopeDate: '11-24',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [
+        {"type": "生日", "name": "你", "year": "2002", "date": "11-24"},
+        {"type": "生日", "name": "宝贝星诺", "year": "2001", "date": "01-30"},
+      ],
+      customizedDateList: [],
+       SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    //{"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    // 这样配置的话，就会每次随机选一句话发送
+    {"keyword": "lover_prattle", contents: [
+        "因为太喜欢你，所以看谁都像是情敌。",
+        "申请成为你爱里的永久居民。",
+        "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+        "遇见你，就好像捡到了100斤的运气",
+      ]},
+        ],
     },
     {
       name: "老婆2",
@@ -130,6 +144,7 @@ export const USER_CONFIG = {
         "你很傻，你很笨，可我还是很羡慕你，因为你有我",
         "遇见你，就好像捡到了100斤的运气",
       ]},
+        ],
     },
     {
       name: "老婆3",
