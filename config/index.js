@@ -141,33 +141,6 @@ export const USER_CONFIG = {
       customizedDateList: []
     },
     {
-      name: "老婆6",
-      id: "oAI0X6g2k3I_hc1hqnrFmNq-hWZo",
-      useTemplateId: "bK9UzO5LqSSRX_IoYxEPg8-xudx4uU7mpEh7I-y55zw",
-      province: "内蒙古",
-      city: "乌兰察布",
-      horoscopeDate: '11-24',
-      horoscopeDateType: '今日',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-//         {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-//         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "你", "year": "2002", "date": "11-24"},
-        {"type": "生日", "name": "宝贝星诺", "year": "2001", "date": "01-30"},
-      ],
-      customizedDateList: [],
-       SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    //{"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
-    // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      
-      ]},
-        ],
-    },
-    {
       name: "老婆3",
       id: "",
       useTemplateId: "",
